@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card Fraud Detection</title>
+	<style>
+		#Creditcard{
+			color:white;
+			margin-left: 200px;
+		}
+		#time{margin:10px;}
+		#V1{margin-left:33px;}
+		#V2{margin-left:33px;}
+		#V3{margin-left:33px;}
+		#V4{margin-left:33px;}
+		#V5{margin-left:33px;}
+		#V6{margin-left:33px;}
+		#V7{margin-left:33px;}
+		#V8{margin-left:33px;}
+		#V9{margin-left:33px;}
+		#V10{margin-left:25px;}
+		#V11{margin-left:25px;}
+		#V12{margin-left:25px;}
+		#V13{margin-left:25px;}
+		#V14{margin-left:25px;}
+		#V15{margin-left:25px;}
+		#V16{margin-left:25px;}
+		#V17{margin-left:25px;}
+		#V18{margin-left:25px;}
+		#V19{margin-left:25px;}
+		#V20{margin-left:25px;}
+		#V21{margin-left:25px;}
+		#V22{margin-left:25px;}
+		#V23{margin-left:25px;}
+		#V24{margin-left:25px;}
+		#V25{margin-left:25px;}
+		#V26{margin-left:25px;}
+		#V27{margin-left:25px;}
+		#V28{margin-left:25px;}
+		#Predict{margin-left:200px;}
+      body{
+		background-color:black;
+	  }
+		form {
+			margin: auto; /* Center the form horizontally */
+			max-width: 500px; /* Limit the width of the form */
+			background-color: #f2f2f2; /* Set the background color */
+			padding: 5px; /* Add some padding around the form */
+			border-radius: 5px; /* Add rounded corners to the form */
+		}
+	</style>
+	
+</head>
+<body>
+	<h1 id="Creditcard">Credit Card Fraud Detection</h1>
+	<form method="POST" action="/predict">
+	<label for="Time"id="time">Time:</label>
+	<input type="text" name="Time" id="Time"><br>
+    <label for="V1">V1:</label>
+	<input type="text" name="V1" id="V1"><br>
+
+		<label for="V2">V2:</label>
+		<input type="text" name="V2" id="V2"><br>
+
+		<label for="V3">V3:</label>
+		<input type="text" name="V3" id="V3"><br>
+
+        <label for="V4">V4:</label>
+		<input type="text" name="V4" id="V4"><br>
+
+		<label for="V5">V5:</label>
+		<input type="text" name="V5" id="V5"><br>
+
+		<label for="V6">V6:</label>
+		<input type="text" name="V6" id="V6"><br>
+
+        <label for="V7">V7:</label>
+		<input type="text" name="V7" id="V7"><br>
+
+		<label for="V8">V8:</label>
+		<input type="text" name="V8" id="V8"><br>
+
+		<label for="V9">V9:</label>
+		<input type="text" name="V9" id="V9"><br>
+
+        <label for="V10">V10:</label>
+		<input type="text" name="V10" id="V10"><br>
+
+		<label for="V11">V11:</label>
+		<input type="text" name="V11" id="V11"><br>
+
+		<label for="V12">V12:</label>
+		<input type="text" name="V12" id="V12"><br>
+
+        <label for="V13">V13:</label>
+		<input type="text" name="V13" id="V13"><br>
+
+		<label for="V14">V14:</label>
+		<input type="text" name="V14" id="V14"><br>
+
+		<label for="V15">V15:</label>
+		<input type="text" name="V15" id="V15"><br>
+
+		<label for="V16">V16:</label>
+		<input type="text" name="V16" id="V16"><br>
+
+		<label for="V17">V17:</label>
+		<input type="text" name="V17" id="V17"><br>
+
+		<label for="V18">V18:</label>
+		<input type="text" name="V18" id="V18"><br>
+
+        <label for="V19">V19:</label>
+		<input type="text" name="V19" id="V19"><br>
+
+		<label for="V20">V20:</label>
+		<input type="text" name="V20" id="V20"><br>
+
+		<label for="V21">V21:</label>
+		<input type="text" name="V21" id="V21"><br>
+
+        <label for="V22">V22:</label>
+		<input type="text" name="V22" id="V22"><br>
+
+		<label for="V23">V23:</label>
+		<input type="text" name="V23" id="V23"><br>
+
+		<label for="V24">V24:</label>
+		<input type="text" name="V24" id="V24"><br>
+
+        <label for="V25">V25:</label>
+		<input type="text" name="V25" id="V25"><br>
+
+		<label for="V26">V26:</label>
+		<input type="text" name="V26" id="V26"><br>
+
+		<label for="V27">V27:</label>
+		<input type="text" name="V27" id="V27"><br>
+
+        <label for="V28">V28:</label>
+		<input type="text" name="V28" id="V28"><br>
+
+
+    <label for="Amount">Amount:</label>
+	<input type="text" name="Amount" id="Amount"><br>
+
+		<input type="submit"id="Predict" value="Predict">
+	</form>
+</body>
+</html>
